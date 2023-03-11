@@ -1,0 +1,78 @@
+* {
+    margin: auto;
+    padding: 0%;
+}
+
+.container {
+    width: 1000px;
+}
+
+.bayan {
+    height: 56rem;
+    background: rgb(109, 80, 122);
+    background: linear-gradient(0deg, rgba(109, 80, 122, 1) 0%, rgba(45, 205, 253, 1) 100%);
+}
+
+.header {
+    padding-top: 50px;
+    height: 50px;
+    border-bottom: solid 2px;
+    border-color: #FFFFFF;
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.first-section {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-memes__wrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-memes {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icon-wrapper {
+    height: 32px;
+    width: 32px;
+    background-image: url(./assets/svg/book.png);
+    background-repeat: no-repeat;
+}
+
+.cat-gif {
+    margin-top: 10px;
+    height: 0px;
+    width: 400px;
+    transition: 0.5s;
+    /* display: none; */
+}
+
+.first-section:hover .icon-wrapper {
+    background-image: url(./assets/svg/open-book.png);
+    background-repeat: no-repeat;
+}
+
+.first-section:hover .text-memes {
+    color: #FFFFFF;
+}
+
+.first-section:hover .cat-gif {
+    height: 400px;
+}
