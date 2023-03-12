@@ -44,10 +44,12 @@
 }
 
 .text-memes {
-    width: 450px;
+    width: 600px;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .icon-wrapper {
@@ -119,4 +121,84 @@
 
 .second-section:hover {
     height: 400px;
+}
+
+.third-section {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-top: solid 2px;
+    border-color: #FFFFFF;
+}
+
+.third-memes__wrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.face-gif {
+    margin-top: 10px;
+    height: 0px;
+    width: 400px;
+    transition: 0.5s;
+}
+
+.third-section:hover .icon-wrapper {
+    background-image: url(./assets/svg/open-book.png);
+    background-repeat: no-repeat;
+}
+
+.third-section:hover .text-memes {
+    color: #FFFFFF;
+}
+
+.third-section:hover .face-gif {
+    height: 400px;
+}
+
+.third-section:hover {
+    height: 500px;
+}
+
+.fourth-section {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    border-top: solid 2px;
+    border-color: #FFFFFF;
+}
+
+.fourth-memes__wrapper {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.batman-gif {
+    margin-top: 10px;
+    height: 0px;
+    width: 400px;
+    transition: 0.5s;
+}
+
+.fourth-section:hover .icon-wrapper {
+    background-image: url(./assets/svg/open-book.png);
+    background-repeat: no-repeat;
+}
+
+.fourth-section:hover .text-memes {
+    color: #FFFFFF;
+}
+
+.fourth-section:hover .batman-gif {
+    height: 400px;
+}
+
+.fourth-section:hover {
+    height: 500px;
 }
